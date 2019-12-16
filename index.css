@@ -1,0 +1,22 @@
+/* general styling  */
+html {
+  
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* headings */
+h1{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    }

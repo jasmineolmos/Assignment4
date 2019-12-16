@@ -3,8 +3,6 @@
 var express = require('express');
 var myParser = require("body-parser");
 var fs = require('fs');
-var data = require('./static/product_data.js');
-var products = data.products;
 const queryString = require("querystring");
 var filename = 'user_data.json';
 var qs = require('querystring');
@@ -12,6 +10,10 @@ var qs = require('querystring');
 var express = require('express');
 var app = express();
 app.use(myParser.urlencoded({ extended: true })); 
+app.all('*', function (request, response, next) {
+    console.log(request.method + ' to ' + request.path);
+    next();
+});
 
 
 if (fs.existsSync(filename)) {

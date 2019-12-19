@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+        <link href="index.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typing speed</title>
+</head>
+    <h1>Typing Game</h1>
+<body>
+    <div class = "containter text-center">
+
+    
+    <!-- inputing the words!, referenced from ... -->
+    <div class="row">
+        <!--adds margin auto to the right and left-->
+        <div class = "col-md-6 mx-auto" > 
+            <p class = "lead"> Type the given word within
+                <span class = "text-sucess"
+                id="seconds">5</span> Seconds: </p>
+                <h2 class = "display-2 mb-5"
+                id="current-word">hello</h2>
+                <input type = "text" class="form-control
+                form-control-lg" placeholder="start typing..." 
+                id="word-input" autofocus>
+                <h4 class ="mt-3" id="message"></h4>
+    
+
+
+    <!--time and score columns-->
+    <div class = "row mt-5">
+        <div class = "col-md-6">
+            <h3> Time left:
+                <span id = "time">0</span>
+            </h3>
+        </div>
+        <div class = "col-md-6">
+            <h3> Score:
+                <span id ="score"></span>
+            </h3>
+         </div>
+        </div>
+    <!-- instructions-->
+        <div class = "row mt-5">
+            <div class = "col-md-12">
+                <div class = "card card-body bg-secondary text-white">
+                    <h5> Instructions</h5>
+                    <p> Type each word in the given amount of seconds to score. 
+                        To play again, just type the current word. Your score
+                        will reset automatically. 
+                    </p>
+
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+ </div>
+
+ <script src="public/main.js"></script>
+</body>
+</html>

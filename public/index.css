@@ -1,0 +1,93 @@
+/* general styling  */
+html {
+  
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("ripples.png");
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    }
+h5{
+    font-size: 20px;
+    border-style: groove;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+  
+/* unvisited link */
+button {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  button {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+button {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  button {
+    color: #0000FF;
+  }
+  Try it Yourself »
+
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}

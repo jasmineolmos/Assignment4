@@ -5,7 +5,7 @@ let time = 5; //set the times to 5 seconds
 let score = 0; // set intial score to 0
 let isPlaying; //set to see if the game is playing
 
-//dom elements 
+//dom elements          help 
 
 const wordInput = document.querySelector ('#word-input'); //word inputed by user into the text box
 const currentWord = document.querySelector('#current-word'); // the word promted to type

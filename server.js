@@ -16,6 +16,8 @@ app.all('*', function (request, response, next) {
 });
 
 
+
+//check to see if the file esists
 if (fs.existsSync(filename)) {
     userid = fs.readFileSync(filename, 'utf-8');
 
@@ -185,8 +187,8 @@ app.post("/register_form", function (request, response) {
 });
 
 
+console.log('test');
 
-
-app.use(express.static('./static'));
+app.use(express.static('./public'));
 
 var listener = app.listen(8080, () => { console.log('server started listening on port ' + listener.address().port) });

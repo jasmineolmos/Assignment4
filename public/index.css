@@ -29,7 +29,7 @@ h5{
     padding-bottom: 50px;
     padding-left: 80px;
 }
-  
+  /* referenced from bootstrap, styling the buttons and the links*/ 
 /* unvisited link */
 button {
     color: #FF0000;

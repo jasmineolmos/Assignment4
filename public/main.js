@@ -1,3 +1,5 @@
+//code referenced from https://www.youtube.com/watch?v=Yw-SYSG-028 Traversy Media
+
 window.addEventListener('load', init); //load function init when the pade is opened
 
 //variables we will be using in multiple funtions 
@@ -74,7 +76,7 @@ function startMatch(){
 function matchWords(){
     if(wordInput.value === currentWord.innerHTML) {
         message.innerHTML = 'Correct!'; //if the words match 
-        return true;
+        return true; //return true to give them a point
     } else {
         message.innterHTML = '';
         return false;
